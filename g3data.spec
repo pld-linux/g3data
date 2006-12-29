@@ -1,5 +1,5 @@
-Summary:	g3data is used for extracting data from graphs
-Summary(pl):	g3data s³u¿y do wydobywania danych z wykresów
+Summary:	g3data - utility for extracting data from graphs
+Summary(pl):	g3data - narzêdzie do wydobywania danych z wykresów
 Name:		g3data
 Version:	1.4.0.1
 Release:	1
@@ -8,7 +8,7 @@ Group:		X11/Applications/Science
 Source0:	http://www.acclab.helsinki.fi/~frantz/software/%{name}-%{version}.tar.gz
 # Source0-md5:	df4a134cba4981ad0d99536afeeeed4a
 URL:		http://www.acclab.helsinki.fi/~frantz/software/g3data.php
-BuildRequires:	gtk+2-devel
+BuildRequires:	gtk+2-devel >= 1:2.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -35,7 +35,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
 install %{name} $RPM_BUILD_ROOT%{_bindir}
-install %{name}.1.gz $RPM_BUILD_ROOT%{_mandir}/man1
+gzip -dc %{name}.1.gz >$RPM_BUILD_ROOT%{_mandir}/man1/%{name}.1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
