@@ -1,5 +1,5 @@
 Summary:	g3data - utility for extracting data from graphs
-Summary(pl):	g3data - narzêdzie do wydobywania danych z wykresów
+Summary(pl.UTF-8):   g3data - narzÄ™dzie do wydobywania danych z wykresÃ³w
 Name:		g3data
 Version:	1.4.0.1
 Release:	1
@@ -17,10 +17,10 @@ g3data is used for extracting data from graphs. In publications graphs
 often are included, but the actual data is missing. g3data makes the
 extracting process much easier.
 
-%description -l pl
-g3data s³u¿y do wydobywania danych z wykresów. Czêsto do publikacji
-do³±czane s± wykresy, lecz brakuje aktualnych danych. g3data u³atwia
-wydobycie tych danych z wykresów.
+%description -l pl.UTF-8
+g3data sÅ‚uÅ¼y do wydobywania danych z wykresÃ³w. CzÄ™sto do publikacji
+doÅ‚Ä…czane sÄ… wykresy, lecz brakuje aktualnych danych. g3data uÅ‚atwia
+wydobycie tych danych z wykresÃ³w.
 
 %prep
 %setup -q
