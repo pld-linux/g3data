@@ -1,5 +1,5 @@
 Summary:	g3data - utility for extracting data from graphs
-Summary(pl.UTF-8):   g3data - narzędzie do wydobywania danych z wykresów
+Summary(pl.UTF-8):	g3data - narzędzie do wydobywania danych z wykresów
 Name:		g3data
 Version:	1.4.0.1
 Release:	1
